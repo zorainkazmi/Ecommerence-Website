@@ -32,7 +32,7 @@ export const product = {
       title: "Product Category",
       to: [
         {
-          type: "cateogry",
+          type: "category",
         },
       ],
     }),
