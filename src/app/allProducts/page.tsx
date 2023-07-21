@@ -33,7 +33,7 @@ interface IProduct {
 }
 export default async function page() {
   const data: IProduct[] = await getProductData();
-  console.log("sanity data is===========================", data);
+  // console.log("sanity data is===========================", data);
   return (
     <div>
       <div className="grid grid-cols-1 md:grid-cols-4 px-32 py-16 gap-y-16">

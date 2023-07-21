@@ -82,27 +82,10 @@ export default function Page() {
                 className="flex h-[35px] w-[100px]"
               />
             </div>
-
-            {/* <Image src="/../public/Featured2.png" alt="BAZAAR"
-            height={200}
-            width={200} />
-            <Image src="/../public/Featured3.png" alt="BAZAAR"
-            height={200}
-            width={200} />
-            <Image src="/../public/Featured4 (1).png" alt="BAZAAR"
-            height={200}
-            width={200} /> */}
           </div>
-          {/* <div className="flex ml-[80px] relative border border-black
-          w-[650px] h-[400px] bg-blue-400 rounded-full">
-            <Image src="/../public/header.png" 
-            alt="img"
-            className="relative border border-black w-[650px] h-[650px] "
-            width={650}
-            height={650}/>
-          </div> */}
+
           <div className="flex flex-wrap relative ">
-            <div className="flex absolute w-[580px] h-[580px] bg-blue-500 rounded-full top-7 left-3"></div>
+            <div className="flex absolute w-[570px] h-[570px] bg-[#ffece3] rounded-full top-7 left-3"></div>
             <Image
               src={Header}
               className="relative w-[650] h-[650]"
